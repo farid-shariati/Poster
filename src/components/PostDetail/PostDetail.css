@@ -1,0 +1,12 @@
+.post-detail-main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.detail-icons{
+    display: flex;
+    flex-direction: row;
+    margin-top: 25px;
+}

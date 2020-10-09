@@ -1,0 +1,145 @@
+.main-add-card-div {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.add-modal-first-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: baseline;
+}
+
+.my-add-modal-line {
+  height: 1px;
+  width: 100%;
+  background-color: rgb(182, 180, 180);
+}
+
+.first-row-text {
+  width: 180px;
+}
+
+.text-input-add-modal-title {
+  width: 100%;
+  height: 45px;
+  border-radius: 10px;
+  padding: 15px;
+  outline: none;
+  border: 1px solid rgb(156, 155, 155);
+}
+
+.text-input-add-modal-title-error{
+  width: 100%;
+  height: 45px;
+  border-radius: 10px;
+  padding: 15px;
+  outline: none;
+  border: 1px solid rgb(230, 33, 33);
+}
+
+.text-input-add-modal-title:focus {
+  border: 1px solid rgb(0, 0, 0);
+}
+
+.text-input-add-modal-title-error:focus{
+  border: 1px solid rgb(231, 5, 5);
+}
+
+.text-input-add-modal-description {
+  width: 100%;
+  height: 300px;
+  border-radius: 10px;
+  padding: 15px;
+  margin-top: 15px;
+  resize: none;
+  outline: none;
+  border: 1px solid rgb(156, 155, 155);
+}
+
+.text-input-add-modal-description-error {
+  width: 100%;
+  height: 300px;
+  border-radius: 10px;
+  padding: 15px;
+  margin-top: 15px;
+  resize: none;
+  outline: none;
+  border: 1px solid rgb(230, 33, 33);
+}
+
+.text-input-add-modal-description:focus{
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.text-input-add-modal-description-error:focus{
+  border: 1px solid rgb(233, 7, 7);
+}
+
+.add-modal-fourh-row {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.add-modal-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.my-add-modal-second-line {
+  height: 1px;
+  width: 100%;
+  background-color: rgb(219, 218, 218);
+}
+
+.cancel-button-add-modal {
+  width: auto;
+  height: 1px;
+  background-color: rgb(212, 84, 84);
+  color: white;
+  border-radius: 20px;
+  padding: 15px;
+  line-height: 0;
+  text-align: center;
+  outline: none;
+  border: none;
+  transition: 0.3s ease;
+  cursor: pointer;
+  min-width: 100px;
+}
+
+.cancel-button-add-modal:hover {
+  background-color: rgb(211, 11, 11);
+}
+
+.addpost-button-add-modal {
+  width: auto;
+  height: 1px;
+  background-color: rgb(241, 155, 115);
+  color: white;
+  border-radius: 20px;
+  padding: 15px;
+  line-height: 0;
+  text-align: center;
+  outline: none;
+  border: none;
+  transition: 0.3s ease;
+  cursor: pointer;
+  min-width: 100px;
+}
+
+.addpost-button-add-modal:hover {
+  background-color: rgb(243, 86, 13);
+}
+
+
+.error-text-add-modal{
+  color: red;
+  height: 10px;
+}

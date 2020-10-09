@@ -1,0 +1,112 @@
+.main-card {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 200px;
+  padding-top: 15px;
+  padding-right: 25px;
+  padding-left: 25px;
+  border-radius: 25px;
+  box-shadow: 0px 0px 0.5rem rgba(0, 0, 0, 0.1);
+  color: rgb(133, 133, 133);
+  margin-top: 45px;
+}
+
+.card-first-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 20px;
+}
+
+.post-number {
+  color: black;
+}
+
+.card-second-row {
+  font-size: 14px;
+  margin-top: 5px;
+  flex-grow: 1;
+  text-align: start;
+}
+
+.line {
+  border: 0.5px solid rgb(230, 230, 230);
+}
+
+.third-row {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.third-row-line {
+  height: 1.3px;
+  width: 100%;
+  background-color: rgb(221, 219, 219);
+  display: flex;
+  align-items: center;
+  justify-self: center;
+}
+
+.third-row-items {
+    display: flex;
+    margin-top: 7px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.edit-delete-items {
+    display: flex;
+    flex-direction: row;
+}
+
+.delete-icon {
+  background-color: rgb(255, 59, 59);
+  width: 32px;
+  height: 32px;
+  border-radius: 50px;
+  padding: 7px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.delete-icon:hover{
+    background-color: red;
+}
+
+.edit-icon {
+  width: 32px;
+  height: 32px;
+  border-radius: 50px;
+  padding: 7px;
+  border: 0.5px solid rgb(0, 0, 0);
+  margin-right: 5px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.edit-icon:hover{
+    background-color: rgb(218, 213, 213);
+}
+
+.see-post-button{
+    width: auto;
+    height: auto;
+    background-color: rgb(241, 155, 115);
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 12px;
+    text-align: center;
+    outline: none;
+    border: none;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+
+.see-post-button:hover{
+    background-color: rgb(240, 83, 10);
+    color: white;
+}

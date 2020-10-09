@@ -1,0 +1,61 @@
+.main-post-div {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 25px;
+}
+
+.cards-div {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.card-column {
+  flex: 0 0 33.3333%;
+  max-width: 33.3333%;
+  padding: 10px;
+}
+
+.no-posts {
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.no-post-button {
+  width: auto;
+  height: 35px;
+  background-color: rgb(241, 155, 115);
+  color: white;
+  border-radius: 20px;
+  padding: 15px;
+  font-size: 15px;
+  line-height: 0;
+  text-align: center;
+  outline: none;
+  border: none;
+  transition: 0.3s ease;
+  cursor: pointer;
+  min-width: 110px;
+}
+
+.no-post-button:hover {
+  background-color: rgb(241, 85, 12);
+}
+
+@media screen and (max-width: 1200px) {
+  .card-column {
+    flex: 0 0 50%;
+    max-width: 50%;
+    padding: 10px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .card-column {
+    flex: 0 0 100%;
+    max-width: 100%;
+    padding: 10px;
+  }
+}

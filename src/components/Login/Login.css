@@ -1,0 +1,104 @@
+.main-div {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.form-div {
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  box-shadow: 3px 3px 15px #eeeded;
+  border-radius: 15px;
+}
+
+.login-input {
+  margin-top: 20px;
+  width: 300px;
+  height: 30px;
+  border-radius: 10px;
+  padding: 22px;
+  outline: none;
+  border: 1px solid #ccc;
+}
+
+.login-input-error {
+  margin-top: 20px;
+  width: 300px;
+  height: 30px;
+  border-radius: 10px;
+  padding: 22px;
+  outline: none;
+  border: 1px solid rgb(255, 0, 0);
+}
+
+.remember-and-login {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 35px;
+  align-items: center;
+}
+
+label {
+  font-size: 12px;
+}
+
+.my-check {
+  width: 1.4em;
+  height: 1.4em;
+  background-color: white;
+  border-radius: 50%;
+  vertical-align: middle;
+  border: 1px solid rgb(136, 136, 136);
+  -webkit-appearance: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.my-check:checked {
+  background-color: rgb(20, 20, 20);
+}
+
+.login-button {
+  width: auto;
+  height: 35px;
+  background-color: rgb(241, 155, 115);
+  color: white;
+  border-radius: 20px;
+  padding: 20px;
+  line-height: 0;
+  text-align: center;
+  outline: none;
+  border: none;
+  transition: 0.3s ease;
+  cursor: pointer;
+  min-width: 50px;
+}
+
+.login-input:focus{
+  border: 1px solid rgb(0, 0, 0);
+}
+
+.login-input-error:focus{
+  border: 1px solid rgb(255, 0, 0);
+}
+
+.error-span {
+  color: red;
+}
+
+
+.login-button:hover {
+  background-color: rgb(238, 91, 23);
+}
+
+a {
+  color: rgb(241, 155, 115);
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(238, 91, 23);
+}

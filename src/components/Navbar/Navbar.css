@@ -1,0 +1,35 @@
+.navbar {
+    width: 100%;
+    display: flex;
+    background: rgb(255, 255, 255);
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .link {
+    color: rgb(0, 0, 0);
+    font-size: 24px;
+  }
+
+  
+  .link.active {
+    color: rgb(255, 136, 0);
+    font-size: 1.5rem;
+  }
+  
+  .navbar li {
+    list-style-type: none;
+  }
+  
+
+  @media screen and (min-width: 768px) {
+    .navbar ul {
+      display: flex;
+      justify-content: flex-start;
+    }
+  
+    .navbar li {
+      flex: 1 1 0;
+    }
+  }
+  
